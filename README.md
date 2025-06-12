@@ -44,7 +44,7 @@ This rule limits the depth of nested ternary expressions.
 
 #### Options
 
-* `maxDepth`: Maximum allowed depth of nested ternary expressions (default: 1)
+* `maxDepth`: Maximum allowed depth of nested ternary expressions (default: 2)
 
 #### Examples
 
@@ -58,6 +58,5 @@ const value = condition1
     ? (condition3 ? valueA : valueB) 
     : valueC) 
   : valueD;
-```
 ```
 
