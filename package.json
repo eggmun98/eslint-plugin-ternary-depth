@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-ternary-depth",
+  "version": "1.0.0",
+  "description": "ESLint plugin to limit the depth of nested ternary expressions",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "ternary",
+    "conditional"
+  ],
+  "author": "eggmun98",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=6.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eggmun98/eslint-plugin-ternary-depth.git"
+  }
+}
